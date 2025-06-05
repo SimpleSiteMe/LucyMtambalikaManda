@@ -2993,16 +2993,23 @@
 					}
 
 					#header nav > ul > li a:not(.button) {
-						color: #fff;
+						color: #ffffff;
 						display: inline-block;
 						text-decoration: none;
 						border: 0;
 					}
 
-						#header nav > ul > li a:not(.button).icon:before {
-							color: #999;
-							margin-right: 0.5em;
-						}
+					#header #nav2 > ul > li a:not(.button) {
+                        color: #5e5f5e;
+                        display: inline-block;
+                        text-decoration: none;
+                        border: 0;
+                    }
+
+					#header nav > ul > li a:not(.button).icon:before {
+						color: #999;
+						margin-right: 0.5em;
+					}
 
 					#header nav > ul > li:first-child {
 						margin-left: 0;
