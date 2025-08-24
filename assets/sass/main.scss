@@ -1051,7 +1051,7 @@
 		white-space: nowrap;
 
 		&:hover {
-			background-color: lighten(_palette(accent1, bg), 5);
+			background-color: color.adjust($color, $lightness: 6%);
 		}
 
 		&:active {
@@ -1107,7 +1107,7 @@
 			color: _palette(accent2, fg-bold) !important;
 
 			&:hover {
-				background-color: lighten(_palette(accent2, bg), 5);
+				background-color: color.adjust(_palette(accent2, bg), $lightness: 5%);
 			}
 
 			&:active {
